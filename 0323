@@ -1,0 +1,284 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyM6aJS2QoxIvU3MU41F7Wry",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MOTxL/Introduction-to-Computers/blob/main/0323\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GR2Mc1rAK-Cp",
+        "outputId": "1e647eb3-e741-4619-8aa8-ea856c6e690e"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "125"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ],
+      "source": [
+        "5**3"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "99%4"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8qCuOekHLE91",
+        "outputId": "9c16452b-0f85-41d1-ba3c-68e4ae244763"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "3"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "99//4"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WKMQZ_ZELH0r",
+        "outputId": "ab3510f1-32ea-4fcb-eeda-6f04bb606ac5"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "24"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "上底 = int(input('請輸入梯形上底長度:'))\n",
+        "下底 = int(input('請輸入梯形下底長度:'))\n",
+        "高 = int(input('請輸入梯形高度:'))\n",
+        "面積 = (上底 + 下底) * 高 / 2\n",
+        "print('梯形上底長度:',上底, '梯形下底長度為:',下底,'梯形高度為:',高,'梯形面積為',面積)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8iEOHPMJLJgk",
+        "outputId": "0e1db782-f67d-4322-dd08-2628abe5dd5c"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "請輸入梯形上底長度:3\n",
+            "請輸入梯形下底長度:8\n",
+            "請輸入梯形高度:3\n",
+            "梯形上底長度: 3 梯形下底長度為: 8 梯形高度為: 3 梯形面積為 16.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('梯形上底長度:%d,梯形下底長度為:%d,梯形高度為:%d,梯形面積為%d' %(上底,下底,高,面積))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AVjlpTpxNcFi",
+        "outputId": "664cfe42-cf17-49b9-a19d-1e094d4eff59"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "梯形上底長度:3,梯形下底長度為:8,梯形高度為:3,梯形面積為16\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('梯形上底長度:%d,梯形下底長度為:%d,梯形高度為:%d,梯形面積為%f' %(上底,下底,高,面積))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zU-7FjJpRMK4",
+        "outputId": "51467d6a-f426-4c26-b473-64d6a2fc2549"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "梯形上底長度:3,梯形下底長度為:8,梯形高度為:3,梯形面積為16.500000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('梯形上底長度:%d,梯形下底長度為:%d,梯形高度為:%d,梯形面積為%0.1f' %(上底,下底,高,面積))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zCZerwK3UlEZ",
+        "outputId": "f6e7725b-f2bf-4eec-952b-5e6fbf79b84c"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "梯形上底長度:3,梯形下底長度為:8,梯形高度為:3,梯形面積為16.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 1.1\n",
+        "b = 2.02\n",
+        "c = 3.003\n",
+        "print('a=%0.1f,b=%0.2f,c= %0.3f' % (a,b,c))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hHHepjsVUnTQ",
+        "outputId": "eef331f4-ccea-463f-886a-073b4cc04cd2"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a=1.1,b=2.02,c= 3.003\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cm = int(input('請輸入您的身高(cm):'))\n",
+        "kg = int(input('請輸入您的體重(kg):'))\n",
+        "BMI = kg/(cm/100)**2\n",
+        "print('身高%d公分,體重%d公斤,BMI值為%0.2f' % (cm,kg,BMI))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wF_jHnyJU9UI",
+        "outputId": "e4949980-d33d-41d2-ece5-e202b5022834"
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "請輸入您的身高(cm):180\n",
+            "請輸入您的體重(kg):80\n",
+            "身高180公分,體重80公斤,BMI值為24.69\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "yt0WeX3uXMN_"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "ZfUqN-gLbb1W"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
